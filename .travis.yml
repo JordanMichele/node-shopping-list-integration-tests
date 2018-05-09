@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: morning-wave-15745
+  provider: heroku
+  api_key:
+    secure: O58q5+MZM5NzxjDg6jo+GVh6xuixvwx2beZRbg3mvyh/6hxarGpH5vabbkMd4WqjAV6dXt5zcGZNHF2J/7oIzwnBStqduFWWkPAfIMTeTXfMeaFSYRv8JgT1kAQpAm6/UFz3I0NmT5qh0qv/SuR61UcRvZHhrl5IdSQS+v5txMAtdWiSlo+oVD1XFCXgM3LaZduZWGyRjMP6Tm2TjIOCFXz0m2w2wpcPlcC/qd++IyNh0BQJlBbwzXUn/Ohurid2mGwOHQmE+2WaG90u1tDkQIk/MwBXAgjfTDuIjDl/HMwunswDcVPR7dbAAi0A21WWZjfMH6OKJVXVeuJ9tAKgbDx4b2IbLgji/mmwC5kIJUyjzD3ljzv9SIVU9DdsSgyxn6A6gim4HhJLC8+hjfiJvYxH0ilM8Jt7GYQtf44xnVHLdxxh5JfXPQrFkkzg+4IxBsG6WF8HWi7im+9g/Eo00t3Xhf6FovDrIOUYya00+PkBEseQ5eLDZ2vN33EE4DMUYTNC/iRxYTU9UCrSzR5uygcryX1xcSiwQOKktulyUoyaKccZnFAKJDScHk1JIdohF/EZT9wnIb1zURoetkdX2qEog+vXHPgecLpdb27fJ9h4XbRTkf3d3AAFtAdUNJ8ObYsyhTOtR4Q1Nqzf5J7VeORvu1b1WxvBgSBYA4W0AHg=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: JordanMichele/node-shopping-list-integration-tests
